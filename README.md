@@ -16,7 +16,7 @@ In this project, a pre-trained Convolutional Neural Network (CNN)—specifically
 The full architecture consists of the following components:
 - **Input Layer** 
 
-/tAccepts RGB images resized to 299x299 pixels as required by the InceptionV3 model and images resized to 224x224 pixels as required by the MobileNetV2
+\tAccepts RGB images resized to 299x299 pixels as required by the InceptionV3 model and images resized to 224x224 pixels as required by the MobileNetV2
 
 - **Pre-trained Convolutional Base**
 
