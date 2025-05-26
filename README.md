@@ -26,8 +26,7 @@ Utilizes the InceptionV3 model with pre-trained weights from ImageNet for featur
 
 Reduces the spatial dimensions of the feature maps, making the model more efficient and less prone to overfitting compared to flattening.
 
-- **Batch Normalization**
-
+- **Batch Normalization**/n
 Applied to stabilize and accelerate training by normalizing the activations.
 
 - **Fully Connected Layer**
