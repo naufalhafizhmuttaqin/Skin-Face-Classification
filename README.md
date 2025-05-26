@@ -14,7 +14,7 @@ The dataset is split into training and test sets. The training set is further di
 In this project, a pre-trained Convolutional Neural Network (CNN)—specifically InceptionV3—is used as the backbone model for feature extraction. The original top layers of the model are removed (include_top=False), and custom classification layers are added on top. The model is trained using transfer learning, followed by fine-tuning to optimize performance on the skin type classification task.
 
 The full architecture consists of the following components:
-- **Input Layer**/n
+- **Input Layer**
   Accepts RGB images resized to 299x299 pixels as required by the InceptionV3 model and images resized to 224x224 pixels as required by the MobileNetV2
 
 - **Pre-trained Convolutional Base**
@@ -23,7 +23,7 @@ The full architecture consists of the following components:
 - **Global Average Pooling Layer**
   Reduces the spatial dimensions of the feature maps, making the model more efficient and less prone to overfitting compared to flattening.
 
-- **Batch Normalization**
+- **Batch Normalization**/n
   Applied to stabilize and accelerate training by normalizing the activations.
 
 - **Fully Connected Layer**
