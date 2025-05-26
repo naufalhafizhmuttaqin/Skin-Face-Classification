@@ -15,18 +15,31 @@ In this project, a pre-trained Convolutional Neural Network (CNN)—specifically
 
 The full architecture consists of the following components:
 - **Input Layer** 
+
 Accepts RGB images resized to 299x299 pixels as required by the InceptionV3 model and images resized to 224x224 pixels as required by the MobileNetV2
+
 - **Pre-trained Convolutional Base**
+
 Utilizes the InceptionV3 model with pre-trained weights from ImageNet for feature extraction. All layers are initially frozen to prevent updating during the early training phase.
+
 - **Global Average Pooling Layer**
+
 Reduces the spatial dimensions of the feature maps, making the model more efficient and less prone to overfitting compared to flattening.
+
 - **Batch Normalization**
+
 Applied to stabilize and accelerate training by normalizing the activations.
+
 - **Fully Connected Layer**
+
 A dense layer with 256 neurons and ReLU activation to learn complex patterns from the extracted features.
+
 - **Dropout Layer**
+
 Applies dropout with a rate of 0.5 to prevent overfitting by randomly disabling neurons during training.
+
 - **Output Layer**
+
 A dense layer with 4 output units and softmax activation, corresponding to the four skin type classes:
 - Normal
 - Oily
