@@ -5,7 +5,7 @@ This dataset contains images of faces with different skin types, such as:
 - Dry 🌵
 - Acne 😓
 
-Kaggle Dataset = https://www.kaggle.com/datasets/muttaqin1113/face-skin-type
+Kaggle Dataset = https://www.kaggle.com/datasets/muttaqin1113/faceskintype
 
 I employed two Convolutional Neural Network (CNN) models—MobileNetV2 and InceptionV3—to classify skin types and provide skincare recommendations based on the classification results. The methodology includes data preprocessing, model training, and evaluation.
 The dataset is split into training and test sets. The training set is further divided into training and validation sets to fine-tune the model. This process continues iteratively until optimal model performance is achieved. Finally, the test set is used to evaluate the model’s generalization to new, unseen data.
