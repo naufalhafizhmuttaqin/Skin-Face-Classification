@@ -58,4 +58,3 @@ This architecture enables efficient transfer learning and is further improved th
 - **sckit-learn**
 - **pandas**
 - **seaborn**
-<img width="925" height="1599" alt="image" src="https://github.com/user-attachments/assets/b18e64f2-16f9-407e-b6e4-846991b373f3" />
